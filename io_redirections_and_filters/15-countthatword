@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l "bin" /etc/passwd
+find . -type f -print | wc -l "bin" /etc/passwd
